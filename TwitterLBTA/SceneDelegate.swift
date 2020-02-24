@@ -19,11 +19,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
     guard let windowScene = (scene as? UIWindowScene) else { return }
     
-    let window = UIWindow(windowScene: windowScene)
     // I'm creating the app window manually and ignore the storyboard
+    let window = UIWindow(windowScene: windowScene)
     
-    // assigning the root view controller as the ViewController
-    window.rootViewController = UINavigationController(rootViewController: ViewController())
+    // I'm initializing an instance of the HomeController class
+    let homeController = HomeController(collectionViewLayout: UICollectionViewFlowLayout())
+    // assigning the root view controller as the homeController
+    window.rootViewController = UINavigationController(rootViewController: homeController)
     window.rootViewController?.view.backgroundColor = .white
     window.makeKeyAndVisible()
     self.window = window

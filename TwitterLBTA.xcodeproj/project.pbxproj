@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		184C6A9A240374C900BD8399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C6A99240374C900BD8399 /* AppDelegate.swift */; };
 		184C6A9C240374C900BD8399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C6A9B240374C900BD8399 /* SceneDelegate.swift */; };
-		184C6A9E240374C900BD8399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C6A9D240374C900BD8399 /* ViewController.swift */; };
 		184C6AA3240374D200BD8399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C6AA2240374D200BD8399 /* Assets.xcassets */; };
 		184C6AA6240374D200BD8399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C6AA4240374D200BD8399 /* LaunchScreen.storyboard */; };
 		184C6AB1240374D200BD8399 /* TwitterLBTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C6AB0240374D200BD8399 /* TwitterLBTATests.swift */; };
+		184C6ABC24045AA300BD8399 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C6ABB24045AA300BD8399 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		184C6A96240374C900BD8399 /* TwitterLBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterLBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C6A99240374C900BD8399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184C6A9B240374C900BD8399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		184C6A9D240374C900BD8399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		184C6AA2240374D200BD8399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184C6AA5240374D200BD8399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184C6AA7240374D200BD8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184C6AAC240374D200BD8399 /* TwitterLBTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterLBTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C6AB0240374D200BD8399 /* TwitterLBTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLBTATests.swift; sourceTree = "<group>"; };
 		184C6AB2240374D300BD8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C6ABB24045AA300BD8399 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				184C6A99240374C900BD8399 /* AppDelegate.swift */,
 				184C6A9B240374C900BD8399 /* SceneDelegate.swift */,
-				184C6A9D240374C900BD8399 /* ViewController.swift */,
+				184C6ABB24045AA300BD8399 /* HomeController.swift */,
 				184C6AA2240374D200BD8399 /* Assets.xcassets */,
 				184C6AA4240374D200BD8399 /* LaunchScreen.storyboard */,
 				184C6AA7240374D200BD8399 /* Info.plist */,
@@ -196,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C6A9E240374C900BD8399 /* ViewController.swift in Sources */,
+				184C6ABC24045AA300BD8399 /* HomeController.swift in Sources */,
 				184C6A9A240374C900BD8399 /* AppDelegate.swift in Sources */,
 				184C6A9C240374C900BD8399 /* SceneDelegate.swift in Sources */,
 			);
